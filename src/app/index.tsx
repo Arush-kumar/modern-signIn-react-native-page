@@ -11,7 +11,7 @@ const SignIn = () => {
     <View style={styles.container}>
       {/* LOGO  */}
       <View style={styles.logoContainer}>
-        <MaterialCommunityIcons name="ansible" size={60} color="#ac91fc" />
+        <MaterialCommunityIcons name="ansible" size={60} color="#f7a42f" />
       </View>
 
       {/* Heading and Subheading  */}
@@ -142,7 +142,7 @@ const styles = StyleSheet.create({
   },
 
   inputFocused: {
-    borderColor: '#ac91fc',
+    borderColor: '#f7a42f',
     borderWidth: 2
   },
 
@@ -154,7 +154,7 @@ const styles = StyleSheet.create({
 
   btn: {
     width: '100%',
-    backgroundColor: '#ac91fc',
+    backgroundColor: '#f7a42f',
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
@@ -203,7 +203,7 @@ const styles = StyleSheet.create({
   },
 
   footerLink: {
-    color: '#ac91fc',
+    color: '#f7a42f',
     fontSize: 16,
     fontWeight: 'bold'
   },

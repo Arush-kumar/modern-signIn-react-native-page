@@ -1,5 +1,5 @@
 {
-  "name": "react-native-init",
+  "name": "sign-in-ui",
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
@@ -11,6 +11,7 @@
     "lint": "expo lint"
   },
   "dependencies": {
+    "@expo/ngrok": "^4.1.3",
     "@expo/vector-icons": "^15.1.1",
     "@react-navigation/bottom-tabs": "^7.15.5",
     "@react-navigation/elements": "^2.9.10",
